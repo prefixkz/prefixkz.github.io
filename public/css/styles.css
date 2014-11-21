@@ -1,0 +1,84 @@
+#name {
+    display: none;
+}
+
+/* Form */
+
+.form-dark {
+    position: relative;
+    background: #202020;
+    padding: 10px 15px;
+    color: #202020;
+    text-shadow: 1px 1px 1px #444;
+    border: none;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+}
+.form-dark label {
+    display: none;
+    margin: 0px 0px 5px;
+}
+.form-dark input[type="text"], .form-dark input[type="name"], .form-dark input[type="email"], .form-dark textarea, .form-dark select {
+    border: none;
+    color: #eee;
+    margin: 0.7em;
+    outline: 0 none;
+    padding: 0.5em 0.5em 0.2em;
+    width: 95%;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    background: #353535;
+    border: none;
+    box-shadow: 0 1px 10px rgba(0, 0, 0, 0.3) inset, 0 1px 0 rgba(255, 255, 255, 0.1), 0 -1px 0 rgba(0, 0, 0, 0.5);
+    font-size: 1.2em;
+
+}
+.form-dark textarea{
+    height: 5.5em;
+    padding: 5px 0px 0px 5px;
+    width: 95%;
+    max-width: 95%;
+    font-size: 1.2em;
+    color: #eee;
+}
+.form-dark .button {
+    position: relative;
+    font-size: 1.2em;
+    background: #991015;
+    border: none;
+    padding: 0.7em 0.5em;
+    margin: 0 0.7em 0.7em;
+    color: #eee;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    text-shadow: 1px 1px 1px #7E0A0C;
+    font-weight: bold;
+    box-shadow: 1px 1px 1px #640906;
+    -webkit-box-shadow:1px 1px 1px #640906;
+    -moz-box-shadow:1px 1px 1px #640906;
+}
+
+.form-dark .button:hover {
+    background: #7E0A0C;
+    cursor: pointer;
+}
+
+.form-dark .button:active {
+    background: #640906;
+    top: 1px;
+}
+
+
+/* Various */
+
+.partner-logo {
+    float: right;
+    margin-top: -2.2rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin-bottom: .9rem;
+}
