@@ -8,8 +8,16 @@ h1, h2, h3, h4, h5, h6 {
     margin-bottom: .9rem;
 }
 
+/* Partners */
+
 .partner-logo {
     float: right;
+}
+
+.partner-logo a {
+    display: block;
+    height: 100%;
+    width: 100%;
 }
 
 @media (min-width: 30em) {
@@ -17,6 +25,15 @@ h1, h2, h3, h4, h5, h6 {
         margin-top: -2.2rem;
     }
 }
+
+.partner-cleverence, .partner-1c, .partner-omnicomm, .partner-ap, .partner-1c-rating
+{ display: inline-block; background: url('../partners.png') no-repeat; overflow: hidden; text-indent: -9999px; text-align: left; }
+
+.partner-cleverence { background-position: -0px -0px; width: 300px; height: 54px; }
+.partner-1c { background-position: -0px -54px; width: 230px; height: 174px; }
+.partner-omnicomm { background-position: -0px -228px; width: 211px; height: 38px; }
+.partner-ap { background-position: -0px -266px; width: 170px; height: 180px; }
+.partner-1c-rating { background-position: -0px -446px; width: 139px; height: 160px; }
 
 
 /* Form */
