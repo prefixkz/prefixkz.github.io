@@ -1,6 +1,23 @@
+/* Various */
+
 #name {
     display: none;
 }
+
+h1, h2, h3, h4, h5, h6 {
+    margin-bottom: .9rem;
+}
+
+.partner-logo {
+    float: right;
+}
+
+@media (min-width: 30em) {
+    .partner-logo {
+        margin-top: -2.2rem;
+    }
+}
+
 
 /* Form */
 
@@ -69,16 +86,4 @@
 .form-dark .button:active {
     background: #640906;
     top: 1px;
-}
-
-
-/* Various */
-
-.partner-logo {
-    float: right;
-    margin-top: -2.2rem;
-}
-
-h1, h2, h3, h4, h5, h6 {
-    margin-bottom: .9rem;
 }
