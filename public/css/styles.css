@@ -1,6 +1,11 @@
 /* Various */
 
-#name {
+html {
+    font-size: 18px;
+}
+
+#name,
+.hidden {
     display: none;
 }
 
