@@ -34,6 +34,9 @@ weight : 100
         <textarea name="message" class="form-control" rows="3"></textarea>
     </div>
 
+    <input type="hidden" name="_next" value="{{ site.baseurl }}thanks/" />
+    <input type="text" name="_gotcha" class="hidden" />
+
     <button type="submit" class="button">Отправить</button>
 
 </form>
