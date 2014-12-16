@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Home
+description: Разработка, интеграция, IT-аутсорсинг и 1С в Шымкенте
 weight : 0
 ---
 

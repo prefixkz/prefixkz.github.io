@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Контактная информация
+description: Контакты компании Prefix в Шымкенте
 weight : 100
 ---
 
