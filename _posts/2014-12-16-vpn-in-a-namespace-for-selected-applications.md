@@ -4,6 +4,9 @@ title: VPN для избранных приложений с помощью не
 description: Настройка OpenVPN в сетевом неймспейсе Linux для тунеллирования избранных приложений.
 categories: linux
 tags: linux, networking, namespaces, vpn, openvpn, frootvpn
+sitemap:
+  priority: 0.5
+  changefreq: 'monthly'
 ---
 
 Попробовав [бесплатный (пока) VPN](https://frootvpn.com) и приятно удивившись необычно высокой для таких проектов скоростью работы, я пристрастился и стал пользоваться сервисом регулярно.

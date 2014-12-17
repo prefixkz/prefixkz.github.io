@@ -26,3 +26,5 @@ version:          0.1.0
 
 github:
   repo:           https://github.com/prefixkz/prefixkz.github.io
+
+exclude: ["Gemfile.lock", "LICENSE.md", "prefix.sublime-project", "prefix.sublime-workspace"]
