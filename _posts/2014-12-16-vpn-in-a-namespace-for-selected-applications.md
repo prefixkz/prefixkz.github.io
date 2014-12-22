@@ -4,7 +4,7 @@ title: VPN для избранных приложений с помощью не
 description: Настройка OpenVPN в сетевом неймспейсе Linux для тунеллирования избранных приложений.
 categories: linux
 tags: linux, networking, namespaces, vpn, openvpn, frootvpn
-permalink: /blog/linux/vpn-in-a-namespace-for-selected-applications/
+permalink: /blog/froot-vpn-in-a-linux-namespace-for-selected-applications/
 sitemap:
   priority: 0.5
   changefreq: 'monthly'
@@ -106,4 +106,4 @@ ip netns exec $NS_NAME bash -c 'su stanislav'
 chromium-browser
 {% endhighlight %}
 
-[Источник](http://www.evolware.org/?p=293)
+[Источник (англ.)](http://www.evolware.org/?p=293)
