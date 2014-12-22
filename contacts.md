@@ -21,7 +21,7 @@ sitemap:
 
 ## Отправить сообщение
 
-<form action="//forms.brace.io/info@prefix.kz" method="POST" class="form-dark">
+<form action="//formspree.io/info@prefix.kz" method="POST" class="form-dark">
 
     <div class="form-group">
         <label for="InputName">Имя</label>
